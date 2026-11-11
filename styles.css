@@ -1,0 +1,159 @@
+body{
+    background-color: whitesmoke;
+    color: darkslategray;
+    margin: 0;
+    padding: 40px;
+    text-align: centre;
+}
+.header{
+    background-color: indianred;
+    color:white;
+    padding:20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.header h1{
+    margin:0;
+    font-size: 2.5rem;
+}
+.link ul{
+    margin-bottom: 15px;
+}
+.links a{
+    display: inline-block;
+    background-color: white;
+    color: darkslategray;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid gainsboro;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+.links a:hover{
+    background-color: indianred;
+    color: white;
+    border-color: indianred;
+    transform: translateY(-2px);
+}
+
+.container{
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.back-link{
+    display:inline-block;
+    color:indianred;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.back-link:hover{
+    text-decoration: underline;
+}
+
+.recipe-title{
+    color: darkslategray;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.image-card{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.image-card img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 400px;
+   height: auto;
+   object-fit: cover;
+   display: block;
+   margin: 0 auto ;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.recipe-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.recipe-card h2{
+    color: indianred;
+    margin-top: 0;
+    margin-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.lead-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: darkslategray;
+}
+.styled-list{
+    line-height: 1.8;
+    padding-left: 20px;
+}
+.styled-list li{
+    margin-bottom: 8px;
+}
+
+.back{
+    color:brown;
+    background-color: bisque;
+    text-align: left;
+    display:inline-block;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+    padding: 20px;
+    border-radius: 20px;
+}
+.back:hover{background-color:purple;
+    color: white;
+    border-color: purple;
+    transform: translateY(-2px);
+}
+.header{
+    background-color:burlywood ;
+    color: black;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.image img{
+    width: 100%;
+    max-width: 600px;
+    max-height: 400px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+   margin: 0 auto ;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+   padding: auto;
+   border: 10px solid black;
+}
+.para {
+    color: brown;
+    background-color:rgb(238, 197, 181);
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.para h2{
+    background-color: rgb(236, 222, 201);
+    color: blueviolet;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+}
